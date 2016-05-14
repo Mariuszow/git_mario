@@ -11,12 +11,12 @@ int main(int argc, char* argv[])
 {
     if(argc<2)
       {
-          printf("Usage: zad.exe [device_adress] [funktion_adress] [argument_of_funkction]");
+          printf("Usage: zad.exe [r] [device_adress] [funktion_adress] [argument_of_funkction] or zad.exe [comand_of_function]");
           return 0;
       }
     else if (argc>5)
     {
-          printf("too many argumenets Usage: zad.exe [device_adress] [funktion_adress] [argument_of_funkction] ");
+          printf("too many argumenets Usage: zad.exe [r] [device_adress] [funktion_adress] [argument_of_funkction] or zad.exe [comand_of_function] ");
     }
     else
     {
@@ -147,7 +147,7 @@ int check_fun(long f, long s)
               }
             else
             {
-            printf("[] ");
+            printf("[] [] ");
             return 2;
             }
         }
